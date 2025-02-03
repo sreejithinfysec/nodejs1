@@ -27,7 +27,7 @@ jobs:
       run: |
         ${GITHUB_WORKSPACE}/sl --version
         ${GITHUB_WORKSPACE}/sl analyze --strict --wait \
-          --app nodejs1 \
+          --app nodejs1AI \
           --tag branch=${{ github.head_ref }} \
           --js .
       env:
